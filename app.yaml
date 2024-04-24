@@ -6,10 +6,10 @@ env_variables:
   NODE_ENV: "production"
   DATABASE_NAME: "postgres"
   DATABASE_USER: "postgres"
-  DATABASE_PASSWORD: ${DATABASE_PASSWORD}
-  INSTANCE_CONNECTION_NAME: ${INSTANCE_CONNECTION_NAME}
-  GCS_BUCKET_NAME: {$GCS_BUCKET_NAME}
-  GCS_BASE_PATH: {$GCS_BASE_PATH}
+  DATABASE_PASSWORD: '6\i$U;/_<;pX/_Nr'
+  INSTANCE_CONNECTION_NAME: 'e-learning-421208:asia-east1:strapi-education-app'
+  GCS_BUCKET_NAME: 'strapi-education-app-bucket'
+  GCS_BASE_PATH: 'source'
 
 beta_settings:
-  cloud_sql_instances: ${INSTANCE_CONNECTION_NAME}
+  cloud_sql_instances: 'e-learning-421208:asia-east1:strapi-education-app'
