@@ -4,7 +4,7 @@ steps:
       - "-c"
       - >-
         gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy
-        app.yaml --project E-Learning
+        app.yaml --project e-learning-421208
     entrypoint: bash
 timeout: 1600s
 
